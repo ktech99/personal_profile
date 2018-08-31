@@ -28,6 +28,17 @@ label {
   display: none;
 }
 
+.visible {
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 2s linear;
+}
+.hidden {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s 2s, opacity 2s linear;
+}
+
 body .swanky {
   margin: auto;
   top: 0;
@@ -43,6 +54,8 @@ body {
   background: linear-gradient(135deg, #43cea2 0%, #185a9d 100%);
   -webkit-font-smoothing: antialiased;
   font-size: 12px;
+  background-size: fill;
+
 }
 body .swanky {
   -webkit-perspective: 600px;
