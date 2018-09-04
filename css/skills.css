@@ -61,7 +61,7 @@ body {
 .row ul li.selenium div span { width: 90%; background: #0CBFB3; }
 .row ul li.swift div span { width: 50%; background: #E13C4C; }
 .row ul li.android div span { width: 70%; background: #A94034; }
-
+.row ul li.php div span { width: 75%; background: #A94034; }
 
 .animated {
   -webkit-animation-duration: 1s;
