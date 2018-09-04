@@ -54,7 +54,10 @@ body {
   background: linear-gradient(135deg, #43cea2 0%, #185a9d 100%);
   -webkit-font-smoothing: antialiased;
   font-size: 12px;
-  background-size: fill;
+  height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 
 }
 body .swanky {
