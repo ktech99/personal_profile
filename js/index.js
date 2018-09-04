@@ -8,5 +8,5 @@ function loadAbout(){
 
 function loadSkills(){
   about = document.getElementById('about');
-  about.innerHTML = "<iframe src=\"skills.html\" frameBorder=\"0\" width=\"500\", height=\"700\", scrolling=\"no\"></iframe>";
+  about.innerHTML = "<iframe src=\"skills.html\", frameBorder=\"0\" style=\"border:0;border-radius: 25px\" width=\"500\", height=\"700\", scrolling=\"no\"></iframe>";
 }
